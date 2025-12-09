@@ -1,4 +1,4 @@
-import Admin from '../models/Admin.js';
+import Admin from '../models/admin.js';
 
 // @desc    Register admin (first time setup or superadmin creating new admin)
 // @route   POST /api/auth/register

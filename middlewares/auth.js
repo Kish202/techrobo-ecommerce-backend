@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import Admin from '../models/Admin.js';
+import Admin from '../models/admin.js';
 
 // Protect routes - verify JWT token
 export const protect = async (req, res, next) => {
@@ -60,7 +60,7 @@ export const superAdminOnly = (req, res, next) => {
 
     res.status(403).json({
       success: false,
-    
+
       message: 'Access denied. Super admin only.'
     });
   }

@@ -5,7 +5,7 @@ import {
   createCategory,
   updateCategory,
   deleteCategory
-} from '../controllers/categoryController.js';
+} from '../controllers/CategoryController.js';
 import { uploadSingle, handleMulterError } from '../middlewares/upload.js';
 import { protect } from '../middlewares/auth.js';
 
